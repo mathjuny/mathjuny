@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T06:37:19.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="vE14pr663M9BjWHCkyt4" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T06:57:06.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="DK3PS4dCde3m32d8eftT" version="15.7.3" type="github">
   <diagram id="HOxBn5tht_EYRTDBTTVy" name="Page-1">
-    <mxGraphModel dx="1038" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,8 +46,11 @@
         <mxCell id="lryujA1LKYhaAFnQ_uCR-17" value="&lt;font style=&quot;font-size: 20px&quot;&gt;N&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="260" y="160" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-18" target="lryujA1LKYhaAFnQ_uCR-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lryujA1LKYhaAFnQ_uCR-18" value="&lt;font style=&quot;font-size: 10px&quot;&gt;상온측정 센서의&lt;br&gt;온도를 4digit-FND에 출력&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="414" y="200" width="146" height="60" as="geometry" />
+          <mxGeometry x="429" y="200" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lryujA1LKYhaAFnQ_uCR-23" value="Y(코루틴)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="110" height="30" as="geometry" />
@@ -91,19 +94,19 @@
         <mxCell id="lryujA1LKYhaAFnQ_uCR-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-36" target="lryujA1LKYhaAFnQ_uCR-39">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="420" />
-              <mxPoint x="620" y="420" />
+              <mxPoint x="520" y="480" />
+              <mxPoint x="520" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="lryujA1LKYhaAFnQ_uCR-36" value="&lt;font style=&quot;font-size: 14px&quot;&gt;중앙값을&lt;br&gt;7segment에 출력&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="460" y="390" width="140" height="60" as="geometry" />
+          <mxGeometry x="450" y="390" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lryujA1LKYhaAFnQ_uCR-38" value="&lt;font style=&quot;font-size: 20px&quot;&gt;N&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="410" y="400" width="60" height="30" as="geometry" />
+          <mxGeometry x="400" y="400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lryujA1LKYhaAFnQ_uCR-39" value="&lt;font style=&quot;font-size: 16px&quot;&gt;코루틴 End&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="640" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-39" value="&lt;font style=&quot;font-size: 16px&quot;&gt;체온측정&lt;br&gt;코루틴 End&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="490" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lryujA1LKYhaAFnQ_uCR-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-42" target="lryujA1LKYhaAFnQ_uCR-27">
           <mxGeometry relative="1" as="geometry">
@@ -128,6 +131,97 @@
         </mxCell>
         <mxCell id="lryujA1LKYhaAFnQ_uCR-49" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="260" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-52" target="lryujA1LKYhaAFnQ_uCR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="502" y="40" />
+              <mxPoint x="620" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-52" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;버튼이 눌렸는가?&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="414" y="80" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-59" value="Y(코루틴)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="70" />
+              <mxPoint x="610" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-60" target="lryujA1LKYhaAFnQ_uCR-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-60" value="&lt;font style=&quot;font-size: 12px&quot;&gt;동영상이 촬영되고 있는가?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="10" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-64" target="lryujA1LKYhaAFnQ_uCR-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="335" />
+              <mxPoint x="620" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-64" value="동영상 촬영을&lt;br&gt;중단한다." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="429" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-67" value="&lt;font style=&quot;font-size: 20px&quot;&gt;N&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-68" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="740" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;entryX=0.157;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-69" target="lryujA1LKYhaAFnQ_uCR-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-69" value="버튼이 얼마나 눌렸는가?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-72" target="lryujA1LKYhaAFnQ_uCR-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-72" value="&lt;font style=&quot;font-size: 16px&quot;&gt;사진을 촬영한다.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="660" y="370" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-73" value="&lt;font style=&quot;font-size: 16px&quot;&gt;짧게&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-74" value="&lt;font style=&quot;font-size: 16px&quot;&gt;길게&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="767" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="lryujA1LKYhaAFnQ_uCR-76" target="lryujA1LKYhaAFnQ_uCR-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-76" value="&lt;font style=&quot;font-size: 14px&quot;&gt;동영상을 촬영한다.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="697" y="440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lryujA1LKYhaAFnQ_uCR-77" value="&lt;font style=&quot;font-size: 16px&quot;&gt;카메라&lt;br&gt;코루틴 End&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="645" y="500" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
